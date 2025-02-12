@@ -22,7 +22,7 @@ public class CheckoutServlet extends HttpServlet {
             rd.include(req, res);
             pw.println("<table class=\"tab\"><tr><td>Please Login First to Continue!!</td></tr></table>");
             return;
-        }
+         }
         try {
 
             RequestDispatcher rd = req.getRequestDispatcher("payment.html");
